@@ -18,6 +18,7 @@ h1, h2 {
 }
 
 p, a {
+  align-items: center;
   font-family: Karma, sans-serif;
 }
 
@@ -31,18 +32,24 @@ ol {
 
 ol li {
   padding: 1rem;
+  padding: .25em;
   line-height: 1.5;
-  border-width: 2px;
+  border-width: 3px;
   border-style: solid;
   border-color: #987ffa;
-  border-radius: 8px;
+  border-radius: 3em;
 }
 
 ol li h2 {
   margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
 }
 
 ol li a {
+  padding: .5em 1.5em .7em;
   border-width: 2px;
   border-style: solid;
   border-color: #987ffa;
@@ -50,8 +57,4 @@ ol li a {
   background-color: #6f00e7;
   text-decoration: none;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: normal;
 }
