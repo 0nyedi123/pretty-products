@@ -1,9 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 2em;
   background-color: #white;
-  font-family: 'Denk One', sans-serif;
 }
 
 *, *::before, *::after {
@@ -16,11 +15,11 @@ body {
 
 h1, h2 {
   color:#6f00e7;
-  font-family: Denk One;
+  font-family: "Oswald";
 }
 
 p, a {
-  font-family: Georgia;
+  font-family: "Karma";
 }
 
 ol {
@@ -38,7 +37,6 @@ ol li {
   border-style: solid;
   border-color:#987ffa;
   border-radius: 8px;
-  background-color: ;
 }
 
 ol li h2 {
@@ -53,4 +51,8 @@ ol li a {
   background-color: #6f00e7;
   text-decoration: none;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
 }
