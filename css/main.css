@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Karma', 'Oswald', sans-serif;
   font-size: 2em;
-  font-family: "Karma", sans-serif;
 }
 
 *, *::before, *::after {
@@ -15,11 +14,11 @@ body {
 
 h1, h2 {
   color:#6f00e7;
-  font-family: "Oswald";
+  font-family: 'Oswald';
 }
 
 p, a {
-  font-family: "Karma";
+  font-family: 'Karma';
 }
 
 ol {
@@ -35,7 +34,7 @@ ol li {
   line-height: 1.5;
   border-width: 2px;
   border-style: solid;
-  border-color:#987ffa;
+  border-color: #987ffa;
   border-radius: 8px;
 }
 
@@ -46,7 +45,7 @@ ol li h2 {
 ol li a {
   border-width: 2px;
   border-style: solid;
-  border-color:#987ffa;
+  border-color: #987ffa;
   border-radius: 8px;
   background-color: #6f00e7;
   text-decoration: none;
