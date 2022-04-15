@@ -37,7 +37,7 @@ ol li {
   border-width: 3px;
   border-style: solid;
   border-color: #987ffa;
-  border-radius: 3em;
+  border-radius: 3px;
 }
 
 ol li h2 {
@@ -53,7 +53,7 @@ ol li a {
   border-width: 2px;
   border-style: solid;
   border-color: #987ffa;
-  border-radius: 8px;
+  border-radius: 6px;
   background-color: #6f00e7;
   text-decoration: none;
   color: #fff;
