@@ -18,8 +18,9 @@ h1, h2 {
 }
 
 p, a {
-  align-items: center;
   font-family: Karma, sans-serif;
+  justify-content: center;
+  align-items: center;
 }
 
 ol {
