@@ -15,6 +15,7 @@ body {
 
 h1, h2 {
   color: #6f00e7;
+  border-color: #000; 
 }
 
 p, a {
@@ -32,25 +33,25 @@ ol {
 
 ol li {
   padding: 1rem;
-  padding: .25em;
   line-height: 1.5;
   border-width: 3px;
   border-style: solid;
   border-color: #987ffa;
   border-radius: 3px;
-  Margin: .25em;
+  margin: .25em;
 }
 
 ol li h2 {
   margin-top: 0;
   display: flex;
+  padding: .5em 1.5em .7em;
   justify-content: center;
   align-items: center;
   font-weight: normal;
 }
 
 ol li a {
-  padding: .5em 1.5em .7em;
+  padding: .25em;
   border-width: 2px;
   border-style: solid;
   border-color: #987ffa;
